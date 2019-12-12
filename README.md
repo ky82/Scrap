@@ -4,15 +4,25 @@ Scraper is a a web app that lets users view and leave comments on the latest new
 
 # Getting started
 assuming node and npm are installed.
+
 $ git clone https://github.com/ky82/Scrap.git
+
 $ cd scrape
+
 $ npm install
-deploying to Heroku
+
+# deploying to Heroku
+
 $ heroku login
+
 $ Email: <enter email>
+  
 $ Password: <password>
+  
 $ heroku create <enter app name>
+  
 $ heroku addons:create mongolab
+
 $ git push heroku master
   
 # Programming/Scripting Languages
